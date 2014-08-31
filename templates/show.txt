@@ -1,0 +1,5 @@
+<h1> Client Information </h1>
+
+<h3>Name = ${name}</h3><br> 
+<h3>Address = ${ad}</h3><br> 
+<h3>DOB = ${DOB}</h3><br> 

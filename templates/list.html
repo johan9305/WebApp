@@ -1,0 +1,20 @@
+<form action = "show_User.py" method = "POST">
+<page enable_loop="True"/>
+<head>
+    <title> Select you Customer  </title>
+</head>
+	<h1>Select your Customer </h1>
+
+% for a in clients:
+      <input type="radio" name="wich" value = "${a}"> ${a}<br> 
+% endfor
+
+<a href = "../index.html"> Home </a>
+
+
+<p></p><input type = "submit" value = "Select"></form>
+
+
+
+
+
