@@ -1,19 +1,25 @@
-<form action = "show_User.py" method = "POST">
-<page enable_loop="True"/>
+<!DOCTYPE html>
+<html>
 <head>
-    <title> Select you Customer  </title>
+    <title> Select you Customer</title>
 </head>
-	<h1>Select your Customer </h1>
+<body>
+
+<h1>Select your Customer </h1>
+
+<form action = "cgi-bin/show_User.py" method = "POST">
 
 % for a in clients:
-      <input type="radio" name="wich" value = "${a}"> ${a}<br> 
+    <input type="radio" name="which" value = "${a}">${a}<br>
 % endfor
+
+    <p></p><input type = "submit" value = "Select">
+</form>
 
 <a href = "../index.html"> Home </a>
 
-
-<p></p><input type = "submit" value = "Select"></form>
-
+</body>
+</html>
 
 
 
