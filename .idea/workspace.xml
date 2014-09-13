@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="310545f4-5536-455e-8880-a4c8f50d53af" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cgi-bin/edit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/list_edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cgi-bin/list_edit.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/Clients.txt" afterPath="$PROJECT_DIR$/data/Clients.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/list.html" afterPath="$PROJECT_DIR$/templates/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cgi-bin/list_costumers.py" afterPath="$PROJECT_DIR$/cgi-bin/list_costumers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cgi-bin/save.py" afterPath="$PROJECT_DIR$/cgi-bin/save.py" />
+      <change type="DELETED" beforePath="C:\Users\Joan\Desktop\WebApp\data\Jeff.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Joan\Desktop\WebApp\data\Jose Ana.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Joan\Desktop\WebApp\data\dfnsdkjf.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cgi-bin/edit.py" afterPath="$PROJECT_DIR$/cgi-bin/edit.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="web.iws" />
@@ -23,7 +18,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/web$create_server_8080.coverage" NAME="create_server_8080 Coverage Results" MODIFIED="1410618825311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/web$create_server_8080.coverage" NAME="create_server_8080 Coverage Results" MODIFIED="1410627837524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -37,22 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="67" selection-start="90" selection-end="90" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="561">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="create_customer.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cgi-bin/create_customer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,7 +62,16 @@
       <file leaf-file-name="edit.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cgi-bin/edit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="28" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="13" column="75" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="save.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cgi-bin/save.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="573" selection-end="573" vertical-scroll-proportion="0.54448396" vertical-offset="0" max-vertical-offset="562">
               <folding />
             </state>
           </provider>
@@ -93,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Clients.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Clients.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/Clients.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="33" selection-start="30" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="371">
+            <state line="0" column="33" selection-start="30" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
               <folding />
             </state>
           </provider>
@@ -123,7 +116,7 @@
       <file leaf-file-name="list_edit.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/list_edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="1" selection-start="205" selection-end="256" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="561">
+            <state line="10" column="1" selection-start="205" selection-end="256" vertical-scroll-proportion="-5.576923" vertical-offset="25" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -157,9 +150,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/cgi-bin/list_edit.py" />
         <option value="$PROJECT_DIR$/templates/edit.html" />
-        <option value="$PROJECT_DIR$/cgi-bin/edit.py" />
         <option value="$PROJECT_DIR$/cgi-bin/save.py" />
         <option value="$PROJECT_DIR$/data/Clients.txt" />
+        <option value="$PROJECT_DIR$/cgi-bin/edit.py" />
       </list>
     </option>
   </component>
@@ -263,11 +256,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="vcs.Git" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Programing/dealing with customers/web" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -385,6 +379,9 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -406,9 +403,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -496,7 +490,11 @@
       <created>1410126601276</created>
       <updated>1410126601276</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="eliminating yate">
+      <created>1410618942770</created>
+      <updated>1410618942770</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -512,7 +510,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3136289" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3136289" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -540,9 +538,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.6781609" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3218391" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3218391" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -567,76 +565,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/create_server_8080.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="11" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="2" column="11" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/templ.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="47" selection-start="335" selection-end="335" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
+        <state line="10" column="47" selection-start="335" selection-end="335" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="357" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cgi-bin/list_costumers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="87" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding>
-            <element signature="e#23#57#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="10" column="87" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cgi-bin/list_edit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="46" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding>
-            <element signature="e#23#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="328" selection-end="328" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cgi-bin/display_customer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cgi-bin/create_customer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583">
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="8" column="46" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="67" selection-start="90" selection-end="90" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="561">
+        <state line="2" column="67" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Lista_clientes.html">
+    <entry file="file://$PROJECT_DIR$/data/Perdro Valdez.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="208" selection-end="208" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="371">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/list_edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="205" selection-end="256" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="561">
+        <state line="10" column="1" selection-start="205" selection-end="256" vertical-scroll-proportion="-5.576923" vertical-offset="25" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
@@ -648,25 +611,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cgi-bin/edit.py">
+    <entry file="file://$PROJECT_DIR$/cgi-bin/display_customer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="28" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cgi-bin/save.py">
+    <entry file="file://$PROJECT_DIR$/templates/Lista_clientes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="415" selection-end="415" vertical-scroll-proportion="0.54986525" vertical-offset="68" max-vertical-offset="476">
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state line="13" column="4" selection-start="208" selection-end="208" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/Perdro Valdez.txt">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="371">
+        <state line="13" column="7" selection-start="328" selection-end="328" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
@@ -674,6 +635,27 @@
     <entry file="file://$PROJECT_DIR$/data/Clients.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="33" selection-start="30" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="371">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cgi-bin/create_customer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cgi-bin/edit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="75" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cgi-bin/save.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="573" selection-end="573" vertical-scroll-proportion="0.54448396" vertical-offset="0" max-vertical-offset="562">
           <folding />
         </state>
       </provider>

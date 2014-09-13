@@ -11,6 +11,7 @@ data = Dealing.get_from_file("C:\\Users\\Joan\\Desktop\\WebApp\\data\\" + person
 Name = data.name
 Address = data.adress
 Dob = data.DOB
+Dealing.Remove("C:\\Users\\Joan\\Desktop\\WebApp\\data\\" + person + ".txt")
 
 mytemplate = Template(filename="C:\\Users\\Joan\Desktop\\WebApp\\templates\\edit.html")
 
