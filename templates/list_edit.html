@@ -8,7 +8,7 @@
 
 <h1>Select your Customer </h1>
 
-<form action = "../cgi-bin/display_customer.py" method = "POST">
+<form action = "../cgi-bin/edit.py" method = "POST">
 
 % for a in clients:
     <input type="radio" name="which" value = "${a}">${a}<br>
