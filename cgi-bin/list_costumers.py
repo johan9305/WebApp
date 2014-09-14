@@ -4,9 +4,10 @@ __author__ = 'Joan'
 
 from mako.template import Template
 import Dealing
+import yate
 
-clients = Dealing.get_client_list(file="C:\\Users\\Joan\\Desktop\\WebApp\\data")
+clients = Dealing.get_client_list(file="C:\\Users\\Joan\\Desktop\\WebApp\\data\\Clients.txt")
 
-
-mytemplate = Template(filename ="..\\templates\\list.html",enable_loop="True")
+print(yate.start_response())
+mytemplate = Template(filename ="C:\\Users\\Joan\\Desktop\\WebApp\\templates\\list.html",enable_loop="True")
 print(mytemplate.render(clients = clients))

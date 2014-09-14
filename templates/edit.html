@@ -5,9 +5,13 @@
 </head>
 <body><form action = "../cgi-bin/save.py" method = "POST">
 
-        Name  <input type="text"  name ="name" value =>${name}<br/>
+        Name  <input type="text"  name ="name">${name}<br/>
         Address <input type="text" name="ad">${address}<br/>
         DOB <input type="text" name="DOB">${dob}<br>
+        <br>
+        <br>
+        Filename <input type="text" name="file" value="${b}"><br>
+
     <a href = "../index.html"> Home </a>
 <p></p><input type=submit value="Select"></form>
 
