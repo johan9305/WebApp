@@ -13,20 +13,15 @@ file =get_data['file'].value
 
 new_client = Dealing.Client(name ,DOB,address )
 
-def rm(name):
-    with open("../data/Clients.txt" ,"r+") as piru:
-        list = piru.readline()
-        cl = list.strip().split(',')
-        cl.remove(name)
-
 
 if file == name :
     Dealing.empty("C:\\Users\\Joan\\Desktop\\WebApp\\data\\" + name + ".txt")
     new_client.save_in_file( "C:\\Users\\Joan\\Desktop\\WebApp\\data\\" +name+".txt")
-elif file != name:
+elif file != name  :
     Dealing.Remove("C:\\Users\\Joan\\Desktop\\WebApp\\data\\" +file+".txt")
     new_client.save_in_file( "C:\\Users\\Joan\\Desktop\\WebApp\\data\\" +name+".txt")
-    rm(file)
+
+
     new_client.put_in_list
 
 
