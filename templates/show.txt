@@ -2,4 +2,6 @@
 
 <h3>Name = ${name}</h3><br> 
 <h3>Address = ${ad}</h3><br> 
-<h3>DOB = ${DOB}</h3><br> 
+<h3>DOB = ${DOB}</h3><br>
+
+<a href = "../index.html">Home</a>
