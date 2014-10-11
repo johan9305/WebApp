@@ -3,21 +3,30 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <head>
     <title>Dear user, please select your customer</title>
-</head>
-<body>
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
-<h1>Select your Customer </h1>
+<!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+</head>
+<body background ="../purple.jpg">
+
+<h1><font color = "#f0ffff">Select your Customer </font></h1>
 
 <form action = "../cgi-bin/delete.py" method = "POST">
 
 % for a in clients:
-    <input type="radio" name="which" value = "${a}">${a}<br>
+      <span class="input-group">
+       <input type="radio" name="which" value ="${a}"><font color="#fffff0">${a}</font> <br>
+      </span><br>
 % endfor
-
-    <p></p><input type = "submit" value = "Select">
+<br>
+    <p></p><input class="btn btn-inverse" type = "submit" value = "Select">
 </form>
 
-<a href = "../index.html"> Home </a>
+<ul class="pager">
+  <li class="previous"><a  href="../index.html">Home</a></li>
+</ul>
 
 </body>
 </html>

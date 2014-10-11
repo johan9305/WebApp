@@ -1,4 +1,5 @@
-import Dealing 
+# /usr/bin/env python
+import Dealing
 import cgi
 import cgitb
 import yate

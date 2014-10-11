@@ -1,3 +1,4 @@
+# /usr/bin/env python
 __author__ = 'Joan'
 from mako.template import Template
 import Dealing
