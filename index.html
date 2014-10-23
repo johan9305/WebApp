@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-</head>
-<body bgcolor="#99CCFF" >
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
-<a href= "cgi-bin\lico.py"  ><p align="center" ; font-size = "8">See Client's List</p> </a><br>
-    
-<a href ="cgi-bin\New_Customer.py"><p align="center"> Add new Client</p> </a>
-		
+<!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+
+</head>
+<body background="purple.jpg">
+<div>
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container">
+      <ul class="nav navbar-nav">
+            <li><a href="cgi-bin/list_customers.py">See Client's List</a></li>
+            <li><a href="cgi-bin/create_customer.py">Create Client</a></li>
+            <li><a href="cgi-bin/list_edit.py">Edit Client</a></li>
+            <li><a href ="cgi-bin/list_eliminate.py">Delete Client</a></li>
+       </ul>
+  </div>
+</nav>
+</div>
+<div>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</div>
 </body>
 </html>

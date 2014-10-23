@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter your client's information </title>
+
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+</head>
+<body background = "../purple.jpg">
+<form action = "../cgi-bin/save_edit.py" method = "POST">
+<div class ="col-lg-2">
+        <font color ="#f0ffff">Name</font>  <input type="text" class="form-control" name ="name" value ='${name}'><br/>
+        <font color ="#f0ffff">Address</font> <input type="text" class="form-control" name="ad" value ='${address}'><br/>
+        <font color ="#f0ffff">DOB</font> <input type="text" class="form-control" name="DOB"value = '${dob}'><br>
+        <br>
+        <br>
+        <font color ="#f0ffff">Filename</font> <input type="text" class="form-control" name="file" value="${b}"><br>
+</div><br>
+<p></p><input type=submit value="Select"></form>
+<br>
+<ul class="pager">
+  <li class="previous"><a  href="../index.html">Home</a></li>
+</ul>
+
+</body>
+</html>
