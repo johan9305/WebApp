@@ -1,4 +1,4 @@
-# /usr/bin/env python
+
 import Dealing
 import cgi
 import cgitb
@@ -13,16 +13,15 @@ DOB = get_data['DOB'].value
 file =get_data['file'].value
 
 new_client = Dealing.Client(name ,DOB,address )
-Dealing.replace(str(file))
-new_client.put_in_list
+
 
 if file == name :
     new_client.save_in_file( "C:\\Users\\Joan\\Desktop\\WebApp\\data\\" +name+".txt")
 elif file != name :
     Dealing.Remove("C:\\Users\\Joan\\Desktop\\WebApp\\data\\" +file+".txt")
     new_client.save_in_file( "C:\\Users\\Joan\\Desktop\\WebApp\\data\\" +name+".txt")
-
-
+    Dealing.replace(str(file))
+    new_client.put_in_list
 
 
 

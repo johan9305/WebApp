@@ -11,10 +11,7 @@ get_data = cgi.FieldStorage()
 name = get_data['which'].value
 
 Dealing.Remove("C:\\Users\\Joan\\Desktop\\WebApp\\data\\"+str(name)+".txt" )
-Dealing.replace(str(name))
-
-
-
+Dealing.eliminate(name)
 
 tem = Template(filename="C:\\Users\\Joan\\Desktop\\WebApp\\templates\\client_deleted.html")
 print(yate.start_response())

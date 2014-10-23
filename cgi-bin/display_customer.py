@@ -1,4 +1,4 @@
-# /usr/bin/env python
+
 import yate
 import cgi
 import cgitb
