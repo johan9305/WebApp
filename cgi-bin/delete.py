@@ -3,6 +3,7 @@ __author__ = 'Joan'
 import Dealing
 import cgi
 import cgitb
+import MySQLdb
 import yate
 from mako.template import Template
 cgitb.enable()
@@ -10,8 +11,15 @@ cgitb.enable()
 get_data = cgi.FieldStorage()
 name = get_data['which'].value
 
-Dealing.Remove("C:\\Users\\Joan\\Desktop\\WebApp\\data\\"+str(name)+".txt" )
-Dealing.eliminate(name)
+db = MySQLdb.connect(host= 'localhost',
+                     user="matter_app",
+                      passwd="m@tt3r",
+                      db="matter")
+cur = db.cursor()
+def eliminate(name):
+    cur.execute('delete  from Client where Nombre = "%s" '%(name))
+    db.commit()
+eliminate(name)
 
 tem = Template(filename="C:\\Users\\Joan\\Desktop\\WebApp\\templates\\client_deleted.html")
 print(yate.start_response())

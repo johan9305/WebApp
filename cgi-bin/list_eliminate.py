@@ -1,9 +1,20 @@
 
 from mako.template import Template
 import Dealing
+import MySQLdb
 import yate
 
-clients = Dealing.get_client_list(file="C:\\Users\\Joan\\Desktop\\WebApp\\data\\Clients.txt")
+
+db = MySQLdb.connect(host= 'localhost',
+                     user="matter_app",
+                      passwd="m@tt3r",
+                      db="matter")
+clients =[]
+cur = db.cursor()
+cur.execute('Select * from Client')
+table = cur.fetchall()
+for a in table:
+    clients.append(a[1])
 
 print(yate.start_response())
 mytemplate = Template(filename ="C:\\Users\\Joan\\Desktop\\WebApp\\templates\\list_delete.html",enable_loop="True")
