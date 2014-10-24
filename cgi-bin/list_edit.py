@@ -1,13 +1,23 @@
-# /usr/bin/env python
 __author__ = 'Joan'
 
 
 
 from mako.template import Template
-import Dealing
 import yate
+import MySQLdb
 
-clients = Dealing.get_client_list(file = "C:\\Users\\Joan\\Desktop\\WebApp\\data\\Clients.txt")
+db =MySQLdb.connect(host = 'localhost',
+                    user = 'matter_app',
+                    passwd = 'm@tt3r',
+                    db = 'matter')
+
+
+clients =[]
+cur = db.cursor()
+cur.execute('Select * from Client')
+table = cur.fetchall()
+for a in table:
+    clients.append(a[1])
 
 print(yate.start_response())
 mytemplate = Template(filename ="C:\\Users\\Joan\\Desktop\\WebApp\\templates\\list_edit.html",enable_loop="True")

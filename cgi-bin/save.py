@@ -1,8 +1,9 @@
-# /usr/bin/env python
+
 import Dealing
 import cgi
 import cgitb
 import yate
+import MySQLdb
 from mako.template import Template
 cgitb.enable()
 
@@ -11,9 +12,19 @@ name = get_data['name'].value
 address = get_data['ad'].value
 DOB = get_data['DOB'].value
 
-new_client = Dealing.Client(name ,DOB,address )
-new_client.save_in_file( "C:\\Users\\Joan\\Desktop\\WebApp\\data\\" +name+".txt")
-new_client.put_in_list
+db = MySQLdb.connect(host= 'localhost',
+                     user="matter_app",
+                      passwd="m@tt3r",
+                      db="matter")
+
+cur = db.cursor()
+
+def create(name , DOB , AD):
+    cur.execute("Insert into Client (Id , Nombre , FechaNacimiento,Direccion) VALUES ( NULL ,'%s','%s','%s')" %(name,DOB,AD))
+    db.commit()
+
+
+create(name,DOB,address)
 
 tem = Template(filename="C:\\Users\\Joan\\Desktop\\WebApp\\templates\\Lista_clientes.html")
 print(yate.start_response())
