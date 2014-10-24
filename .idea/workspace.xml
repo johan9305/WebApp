@@ -2,6 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="310545f4-5536-455e-8880-a4c8f50d53af" name="Default" comment="">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      <change type="DELETED" beforePath="C:\Users\Joan\Desktop\WebApp\cgi-bin\list_costumers.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Joan\Desktop\WebApp\templates\show.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Lista_clientes.html" afterPath="$PROJECT_DIR$/templates/Lista_clientes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/client_deleted.html" afterPath="$PROJECT_DIR$/templates/client_deleted.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cgi-bin/create_customer.py" afterPath="$PROJECT_DIR$/cgi-bin/create_customer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cgi-bin/delete.py" afterPath="$PROJECT_DIR$/cgi-bin/delete.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cgi-bin/display_customer.py" afterPath="$PROJECT_DIR$/cgi-bin/display_customer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/edit.html" afterPath="$PROJECT_DIR$/templates/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cgi-bin/edit.py" afterPath="$PROJECT_DIR$/cgi-bin/edit.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/list.html" afterPath="$PROJECT_DIR$/templates/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/list_delete.html" afterPath="$PROJECT_DIR$/templates/list_delete.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/list_edit.html" afterPath="$PROJECT_DIR$/templates/list_edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cgi-bin/list_edit.py" afterPath="$PROJECT_DIR$/cgi-bin/list_edit.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cgi-bin/list_eliminate.py" afterPath="$PROJECT_DIR$/cgi-bin/list_eliminate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cgi-bin/save.py" afterPath="$PROJECT_DIR$/cgi-bin/save.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cgi-bin/save_edit.py" afterPath="$PROJECT_DIR$/cgi-bin/save_edit.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/templ.html" afterPath="$PROJECT_DIR$/templates/templ.html" />
+>>>>>>> origin/master
+>>>>>>> origin/master
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="web.iws" />
@@ -33,6 +57,9 @@
     <favorites_list name="web" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf />
+=======
     <leaf>
       <file leaf-file-name="save_edit.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cgi-bin/save_edit.py">
@@ -151,6 +178,7 @@
         </entry>
       </file>
     </leaf>
+>>>>>>> origin/master
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -169,6 +197,16 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/templates/list.html" />
+        <option value="$PROJECT_DIR$/cgi-bin/lico.py" />
+=======
+        <option value="$PROJECT_DIR$/cgi-bin/save.py" />
+        <option value="$PROJECT_DIR$/cgi-bin/save_edit.py" />
+        <option value="$PROJECT_DIR$/cgi-bin/display_customer.py" />
+>>>>>>> origin/master
         <option value="$PROJECT_DIR$/templates/list.html" />
         <option value="$PROJECT_DIR$/templates/list_edit.html" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -178,6 +216,7 @@
         <option value="$PROJECT_DIR$/data/Jose .txt" />
         <option value="$PROJECT_DIR$/templates/client_deleted.html" />
         <option value="$PROJECT_DIR$/templates/list_delete.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/cgi-bin/list_eliminate.py" />
         <option value="$PROJECT_DIR$/cgi-bin/delete.py" />
         <option value="$PROJECT_DIR$/data/Clients.txt" />
@@ -189,6 +228,9 @@
         <option value="$PROJECT_DIR$/cgi-bin/list_edit.py" />
         <option value="$PROJECT_DIR$/cgi-bin/edit.py" />
         <option value="$PROJECT_DIR$/cgi-bin/save_edit.py" />
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
       </list>
     </option>
   </component>
@@ -224,7 +266,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -273,6 +314,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,7 +322,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="vcs.Git" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Programing/WebApp" />
+=======
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Programing/dealing with customers/nm/build/lib/Dealing.py" />
+>>>>>>> origin/master
+>>>>>>> origin/master
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -556,6 +606,17 @@
       <created>1409171338385</created>
       <updated>1409171338385</updated>
     </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00001" summary="Mejorado formula de cortesia">
+      <created>1410103592922</created>
+      <updated>1410103592922</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Mejorado lico.py">
+      <created>1410105169812</created>
+      <updated>1410105169812</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+=======
     <task id="LOCAL-00001" summary="elimination of yate">
       <created>1410121456451</created>
       <updated>1410121456451</updated>
@@ -616,6 +677,7 @@
       <created>1412027636749</created>
       <updated>1412027636749</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00016" summary="working on the graphic design &#10;">
       <created>1413043725223</created>
       <updated>1413043725223</updated>
@@ -633,6 +695,10 @@
       <updated>1414175744809</updated>
     </task>
     <option name="localTasksCounter" value="20" />
+=======
+    <option name="localTasksCounter" value="16" />
+>>>>>>> origin/master
+>>>>>>> origin/master
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -659,11 +725,33 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854986" sideWeight="0.6877133" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.6715928" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3218391" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.6877133" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> origin/master
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6894198" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18051359" sideWeight="0.68367344" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -674,7 +762,12 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+>>>>>>> origin/master
+>>>>>>> origin/master
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -695,16 +788,26 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+<<<<<<< HEAD
+    <MESSAGE value="Mejorado formula de cortesia" />
+    <MESSAGE value="Mejorado lico.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mejorado lico.py" />
+=======
     <MESSAGE value="elimination of yate" />
     <MESSAGE value="eliminating yate" />
     <MESSAGE value="working on the removing project &#10;" />
     <MESSAGE value="the editing process  is almost done !!!" />
     <MESSAGE value="edit process done !!!!! &#10;" />
     <MESSAGE value="first version of the program done &#10;" />
+<<<<<<< HEAD
     <MESSAGE value="working on the graphic design &#10;" />
     <MESSAGE value="database" />
     <MESSAGE value="working on my database" />
     <option name="LAST_COMMIT_MESSAGE" value="working on my database" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="first version of the program done &#10;" />
+>>>>>>> origin/master
+>>>>>>> origin/master
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -722,8 +825,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cgi-bin/list_eliminate.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+=======
+<<<<<<< HEAD
+        <state line="2" column="12" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cgi-bin/New_Customer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="42" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cgi-bin/lico.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_server_8080.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cgi-bin/save.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="12" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_server_8080.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cgi-bin/save.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+=======
+        <state line="14" column="5" selection-start="470" selection-end="470" vertical-scroll-proportion="-6.1538463" vertical-offset="78" max-vertical-offset="612">
+>>>>>>> origin/master
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
@@ -783,10 +943,22 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/cgi-bin/delete.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="459">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/cgi-bin/New_Customer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="383">
+=======
+    <entry file="file://$PROJECT_DIR$/cgi-bin/edit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+>>>>>>> origin/master
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
@@ -1114,6 +1286,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cgi-bin/save_edit.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="697">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
@@ -1130,6 +1303,34 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+<<<<<<< HEAD
+        <state line="2" column="12" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cgi-bin/lico.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="42" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_server_8080.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.17495711" vertical-offset="0" max-vertical-offset="583">
+=======
+        <state line="4" column="57" selection-start="155" selection-end="155" vertical-scroll-proportion="0.1325536" vertical-offset="0" max-vertical-offset="714">
+>>>>>>> origin/master
+>>>>>>> origin/master
           <folding />
         </state>
       </provider>
