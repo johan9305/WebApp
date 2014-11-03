@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>Enter your client's information </title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+</head>
+<html>
+
+<body background="../purple.jpg">
+<h3><font color="#f0ffff"> Please insert your Client's information </font></h3>
+
+
+  </div><!-- /.col-lg-6 -->
+
+    <form action="../cgi-bin/save_product.py"  method="POST">
+        <div class="col-lg-2">
+        <input type="text" class="form-control" placeholder="Name" name="name">
+        <input type="text" class="form-control" placeholder="Description" name ="ad">
+        <input type="text" class="form-control" placeholder="Weight" name ="weight">
+            <h3><font color="#f0ffff">select Stock</font> </h3>
+            <span class="input-group">
+             <input type="radio" name="stock" value ="stock 1"><font color="#fffff0">Stock 1</font> <br>
+             <input type="radio" name="stock" value ="stock 2"><font color="#fffff0">Stock 2</font>
+               </span><br>
+
+        </div>
+        <p></p><input class="btn btn-inverse"  type=submit value="Select">
+
+    </form>
+
+<ul class="pager">
+  <li class="previous"><a  href="../index.html">Home</a></li>
+</ul>
+</body>
+</html>

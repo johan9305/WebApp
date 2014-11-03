@@ -1,4 +1,4 @@
-# /usr/bin/env python
+
 import Dealing
 import yate
 from mako.template import Template
