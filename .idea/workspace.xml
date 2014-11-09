@@ -2,23 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="310545f4-5536-455e-8880-a4c8f50d53af" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Lista_product.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/edit_product.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cgi-bin/edit_product.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cgi-bin/list_product.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/list_products.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cgi-bin/save_edit_product.py" />
-      <change type="DELETED" beforePath="C:\Users\Joan\Desktop\WebApp\data\Clients.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joan\Desktop\WebApp\data\Joan Vallejo.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joan\Desktop\WebApp\data\cArlos.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joan\Desktop\WebApp\data\mariano.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Joan\Desktop\WebApp\data\peddro.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cgi-bin/save_product.py" afterPath="$PROJECT_DIR$/cgi-bin/save_product.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/table.html" afterPath="$PROJECT_DIR$/templates/table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/templ.html" afterPath="$PROJECT_DIR$/templates/templ.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/web.iml" afterPath="$PROJECT_DIR$/.idea/web.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="web.iws" />
@@ -754,7 +737,11 @@
       <created>1415051568486</created>
       <updated>1415051568486</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="New databases">
+      <created>1415551080014</created>
+      <updated>1415551080014</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -781,6 +768,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -797,7 +785,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3253833" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43611583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -850,7 +837,8 @@
     <MESSAGE value="working on the graphic design &#10;" />
     <MESSAGE value="database" />
     <MESSAGE value="working on my database" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on my database" />
+    <MESSAGE value="New databases" />
+    <option name="LAST_COMMIT_MESSAGE" value="New databases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

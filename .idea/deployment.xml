@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="raspberry" filePermissions="511" folderPermissions="511" showDifferentInSync="false" showNewOnSourceInSync="false" showNewOnTargetInSync="false">
+    <serverData>
+      <paths name="raspberry">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/usr/lib/cgi-bin" local="$PROJECT_DIR$/cgi-bin" web="/" />
+            <mapping deploy="/var/www/templates" local="$PROJECT_DIR$/templates" web="_" />
+            <mapping deploy="/usr/lib/cgi-bin" local="$USER_HOME$/PycharmProjects/raspberry pi/cgi-bin" web="/" />
+            <mapping deploy="/var/www/templates" local="$USER_HOME$/PycharmProjects/raspberry pi/templates" web="_" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
+
