@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<head>
+    <title>Dear user, please select your customer</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+</head>
+<body background="../purple.jpg">
+
+<h1><font color="#f0ffff">Select your product </font></h1>
+
+<form action = "../cgi-bin/edit_product.py" method = "POST">
+
+% for a in clients:
+      <span class="input-group">
+       <input type="radio" name="which" value ="${a}"><font color="#fffff0">${a}</font> <br>
+      </span><br>
+% endfor
+<br>
+    <p></p><input class="btn btn-inverse" type = "submit" value = "Select">
+</form>
+<ul class="pager">
+  <li class="previous"><a  href="../index.html">Home</a></li>
+</ul>
+</body>
+</html>
+
+
+
+

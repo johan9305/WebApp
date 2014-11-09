@@ -24,7 +24,7 @@ def create(des , loc , na ,w):
     db.commit()
 
 
-create(description,Stock,name , wieght)
+create(description,Stock,name ,weight)
 
 tem = Template(filename="C:\\Users\\Joan\\Desktop\\WebApp\\templates\\Lista_clientes.html")
 print(yate.start_response())
