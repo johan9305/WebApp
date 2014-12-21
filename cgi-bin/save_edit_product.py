@@ -19,8 +19,8 @@ db = MySQLdb.connect(host= 'localhost',
                       db="matter")
 clients =[]
 cur = db.cursor()
-def update(nam,De,loc,na,we):
-    cur.execute('update Product set Description = "%s" , Location ="%s" , Name = "%s" , Weight = "%s"where  Name  = "%s"   '%(De,loc,na , we, nam) )
+def update(nam,De,na,we):
+    cur.execute('update Product set Description = "%s" ,  Name = "%s" , Weight = "%s"where  Name  = "%s"   '%(De,na , we, nam) )
     db.commit()
 
 

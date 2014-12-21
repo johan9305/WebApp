@@ -9,7 +9,6 @@ cgitb.enable()
 
 get_data = cgi.FieldStorage()
 name = get_data['name'].value
-Stock = get_data['stock'].value
 description = get_data['ad'].value
 weight = get_data['weight'].value
 db = MySQLdb.connect(host= 'localhost',
@@ -19,16 +18,16 @@ db = MySQLdb.connect(host= 'localhost',
 
 cur = db.cursor()
 
-def create(des , loc , na ,w):
-    cur.execute("Insert into Product (Id , Description , Location, Name ,Weight) VALUES ( 'NULL' ,'%s','%s','%s','%s')" %(des,loc,na,w))
+def create(des , na ,w):
+    cur.execute("Insert into Product (Id , Description , Name ,Weight) VALUES ( 'NULL' ,'%s','%s','%s')" %(des,na,w))
     db.commit()
 
 
-create(description,Stock,name ,weight)
+create(description,name ,weight)
 
 tem = Template(filename="C:\\Users\\Joan\\Desktop\\WebApp\\templates\\Lista_clientes.html")
 print(yate.start_response())
-print(tem.render(Name = name , Address = Stock , DOBs = description))
+print(tem.render(Name = name , DOBs = description, w = weight))
 
 
 

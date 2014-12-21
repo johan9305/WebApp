@@ -577,18 +577,51 @@
       <column name="Direccion" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="Id"/>
     </table>
+    <table name="Drone" schema="" catalog="matter" type="TABLE">
+      <column name="Id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA=="/>
+      <column name="Name" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Capacity" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="Model" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Location" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Weight" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="Latitude" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7"/>
+      <column name="Longitude" sqlType="FLOAT" precision="12" scale="0" nullable="true" jdbcType="7"/>
+      <column name="ReportDateTime" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="Id"/>
+    </table>
+    <table name="Inventory" schema="" catalog="matter" type="TABLE">
+      <column name="IdWarehouse" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="IdProduct" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Quantity" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <index name="inventory_idx" unique="true" columns="IdWarehouse,IdProduct"/>
+    </table>
     <table name="Product" schema="" catalog="matter" type="TABLE">
       <column name="Id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="Description" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12"/>
-      <column name="Location" sqlType="VARCHAR" precision="225" scale="0" nullable="true" jdbcType="12"/>
       <column name="Name" sqlType="VARCHAR" precision="125" scale="0" nullable="true" jdbcType="12"/>
-      <column name="Weight" sqlType="DECIMAL" precision="1" scale="0" nullable="true" jdbcType="3"/>
+      <column name="Weight" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
       <primary-key name="PRIMARY" columns="Id"/>
     </table>
-    <table name="Wearhouse" schema="" catalog="matter" type="TABLE">
+    <table name="Trip" schema="" catalog="matter" type="TABLE">
+      <column name="DroneId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="Description" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12"/>
+      <column name="StarTime" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="Speed" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="Id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+    </table>
+    <table name="TripLocation" schema="" catalog="matter" type="TABLE">
+      <column name="Id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="TripId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="SequenseOrder" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12"/>
+      <column name="Longitude" sqlType="FLOAT" precision="12" scale="0" nullable="false" jdbcType="7"/>
+      <column name="Latitude" sqlType="FLOAT" precision="12" scale="0" nullable="false" jdbcType="7"/>
+      <column name="StopDuration" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+    </table>
+    <table name="Warehouse" schema="" catalog="matter" type="TABLE">
       <column name="Id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" def="MA=="/>
       <column name="Name" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12"/>
       <column name="Location" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12"/>
+      <column name="Cod" sqlType="VARCHAR" precision="200" scale="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="Id"/>
     </table>
     <table name="columns_priv" schema="" catalog="mysql" type="SYSTEM TABLE">
