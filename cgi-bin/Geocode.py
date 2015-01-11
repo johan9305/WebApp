@@ -5,6 +5,9 @@ from geopy.geocoders import Nominatim
 from mako.template import Template
 import sys
 import time
+from math import radians, cos, sin, asin, sqrt
+
+
 geolocator = Nominatim()
 
 class Geocode :
@@ -73,11 +76,7 @@ def get_trip():
     return na
 
 
-flight=["132131351","46468156","46515135","16654646"]
-"""for i in flight :
-    sys.stdout.write("\r" +"|coordinates| : "+"|"+i+"|")
-    sys.stdout.flush()
-    time.sleep(1)"""
+
 
 
 class trip :
@@ -92,38 +91,102 @@ class trip :
         distance = 200
         time = distance/self.speed
         return time
-    def DisplayContent (self):
 
-        print("\r" +"|Description| : "+"|"+self.description)
+    def Get_Distance(self):
+        lon1 , lat1 = self.longitude ,self.letitude
 
-        print("\r" +"|speed| : " +str(self.speed)+"km/h")
+        end = self.get_points()
+        adresses = []
+        for a in end :
+            adresses.append(end[a])
+        points = adresses.pop()
+        location = geolocator.geocode(points)
+        lon2 ,lat2 = location.longitude , location.longitude
 
-        print("\r" +"|latitude| : "+"|"+str(+self.letitude))
+        """
+        Calculate the great circle distance between two points
+        on the earth (specified in decimal degrees)
+        """
+        # convert decimal degrees to radians
+        lon1, lat1, lon2, lat2 = map(radians, [lon1, lat1, lon2, lat2])
 
-        print("\r" +"|Longitude| : "+"|"+str(self.longitude))
-        tiem = 10
-        distance  = tiem/self.speed
-        while distance >= 0 :
-            sys.stdout.write("\r" +"|Distance| : "+str(distance)+"km" +" "+ " " + "|Flight Time| : " + str(tiem) + "H")
-            sys.stdout.flush()
+        # haversine formula
+        dlon = lon2 - lon1
+        dlat = lat2 - lat1
+        a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
+        c = 2 * asin(sqrt(a))
 
-            distance = tiem / self.speed
-            tiem = tiem -1
-            time.sleep(1)
+        # 6367 km is the radius of the Earth
+        km = 6367 * c
+        return km
 
     def get_points(self):
         destinations  = [self.sequense]
         destin = destinations.pop()
         destin = destin.split(',')
-        ala = ['A']
-        dir = []
+        dir = {}
         for a in destin :
             if len(a) >= 4 :
-                cur.execute('select Name , Location  from  Warehouse where  Cod  = "%s"' %(a))
+                cur.execute('select   Name ,Location  from  Warehouse where  Cod  = "%s"' %(a))
                 result = cur.fetchall()
+                for a in result :
+                    dir[a[0]] = a[1]
+
             else :
-                """results.append(gc.get_coordinates(a))"""
-        return result
+                cur.execute('select  Nombre , Direccion from  Client where Id = "%s"' %(a))
+                result = cur.fetchall()
+                for a in result :
+                    dir[a[0]] = a[1]
+        return dir
+
+    def DisplayContent (self):
+
+
+        print("| Trip Description| : "+"|"+self.description)
+
+        print( "|speed| : " +str(self.speed)+"km/h")
+
+
+        dire = self.get_points()
+        diro =[]
+        for a in dire :
+            diro.append(dire[a])
+        loc = diro[0]
+        latitude = self.letitude
+        longitude = self.longitude
+        cur.execute ('UPDATE  Drone SET Latitude = %d, Longitude = %d  where  Id = 1234' %(latitude , longitude))
+        tiem = 10
+        distance  = tiem/self.speed
+        while distance >= 0 :
+            sys.stdout.write( "\r" "|Distance| : "+str(distance)+ "km"+
+                             " " + "|Time Left| : " + str(tiem) + "H"+ " "+ " " + "|Location | : " + loc + " " + "|Latitude| : " + str(latitude)+ " " + "|Longitude| :"+ str(longitude))
+            sys.stdout.flush()
+            distance = tiem / self.speed
+
+            if tiem <= 7.5 :
+                loc = diro[1]
+                location = geolocator.geocode(loc)
+                latitude = location.latitude
+                longitude =  location.longitude
+                cur.execute ('UPDATE  Drone SET Latitude = %d, Longitude = %d  where  Id = 1234' %(latitude , longitude))
+                db.commit()
+            if tiem <= 5 :
+                loc = diro[2]
+                location = geolocator.geocode(loc)
+                latitude = location.latitude
+                longitude =  location.longitude
+                cur.execute ('UPDATE  Drone SET Latitude = %d, Longitude = %d  where  Id = 1234' %(latitude , longitude))
+                db.commit()
+            if tiem <= 2.5 :
+                loc = diro[3]
+                location = geolocator.geocode(loc)
+                latitude = location.latitude
+                longitude =  location.longitude
+                cur.execute ('UPDATE  Drone SET Latitude = %d, Longitude = %d  where  Id = 1234 ' %(latitude , longitude))
+                db.commit()
+            tiem = tiem - 1
+            time.sleep(1)
+
 
 
 
@@ -135,6 +198,31 @@ lista = get_trip()
 
 
 Trip = trip(lista[0],str(lista[1]),lista[2],lista[3],lista[4],lista[11])
+Trip.DisplayContent()
+print(Trip.Get_Distance())
 
-print(Trip.get_points())
-print(get_Warehouse())
+
+"""letters =[1,2,3,4,5,6,78,9]
+flight=["132131351","46468156","46515135","16654646"]
+for i , e in zip(flight,letters) :
+    sys.stdout.write("\r" +"|coordinates| : "+"|"+i+"|" + " " + str(e))
+    sys.stdout.flush()
+    time.sleep(1)"""
+
+
+
+
+warehouse = get_Warehouse()
+b =[]
+for a in warehouse:
+    b.append(warehouse[a])
+
+
+coor1= b.pop()
+coor2 = b.pop()
+points=[]
+for a in coor1 :
+    points.append(a)
+for a in coor2:
+    points.append(a)
+
