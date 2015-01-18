@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-     <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
     <title>Map </title>
 </head>
 <body background="\images\9b648979a5f79c68708e87168ae30601.jpg">
+
+<script src="//ajax.googleapis.com/ajax/libs/dojo/1.10.3/dojo/dojo.js"
+    data-dojo-config="async: true"></script>
+
+<script>
+    require([
+        'dojo/request/xhr'
+    ], function (xhr) {
+        (function() {
+
+            var droneModelBackend = 'http://x.x.x.x/cgi-bin/get_drone_info.py';
+
+            // LD - 2014/01/18 - Get drone data from backend model by
+            // xhr (XMLHttpRequest) and returns drone info (lat, lng, ...)
+            //
+            // returns a Deferred
+            function loadDronePosition(droneId) {
+                return xhr(droneModelBackend, { handleAs: 'json'});
+            };
+
+            // LD - 2014/01/18 - Show drone marker on map at position, with popup
+            // show corresponding misc. info if available (drone name, model, ...)
+            function mapDronePosition(id, lat, lng, info) {
+
+            };
+
+            function updateDroneOnMap(id) {
+                loadDronePosition.then(function(droneInfo) {
+                    // TODO: check if droneInfo contains lat and lng properties
+                    mapDronePosition(id, droneInfo.lat, droneInfo.lng, dronInfo);
+                })
+            }
+
+            var dronePositionHandler = setInterval(updateDroneOnMap, 1000);
+        })();
+    });
+</script>
+
 <div id="map" style="width: 600px; height: 400px ; position: relative ; left:400px ; top: 200px">
     <script>
 
